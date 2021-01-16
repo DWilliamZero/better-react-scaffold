@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Routes from '../routes/routes'
 import Header from './Header'
 import Footer from './Footer'
-// import { endpoint } from '../services/endpointGroup'
+// import { endpoint } from '../services/endpointFile'
 
 class Container extends Component {
   constructor(props) {
