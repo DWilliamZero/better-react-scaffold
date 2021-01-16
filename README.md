@@ -8,7 +8,7 @@ Authentication is setup for JWT, make sure your backend auth is set to JWT
 Just add your endpoints and you're ready to go!
 
 ### Routes and Authenticated Routes
-Sign-up, Sign-in, Sign-Out, and Dashboard are setup and ready for you to modify. (Dashboard is a protected route.)
+Sign-Up, Sign-In, Sign-Out, and Dashboard are setup and ready for you to modify. (Dashboard is a protected route.)
 
 ### File Structure
 React does not have a specified file structure convention, so I've set it up in a common and intuitive manner.  (note: what most people call the "screens" directory, I call "pages". I like to call things what they are.)
