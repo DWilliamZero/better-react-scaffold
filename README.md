@@ -1,4 +1,4 @@
-# A Better React Scaffold! - by D. William Zero
+# A Better React Scaffold - by D. William Zero
 With this React scaffold, you can immediataly start building your next auth app.  No need to spend time thinking about file structure, or configuring auth.  It's all ready to go out of the box.
 
 ### Authentication
