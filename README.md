@@ -14,12 +14,15 @@ Sign-Up, Sign-In, Sign-Out, and Dashboard are setup and ready for you to modify.
 React does not have a specified file structure convention, so I've set it up in a common and intuitive manner.  (note: what most people call the "screens" directory, I call "pages". I like to call things what they are.)
 
 ## Getting Started
-1) Create and setup a .env file in the project root (See ".env.example"). Be sure to set API_URL to your api url.
+1) Clone Repo:  
+   HTTPS:  `git clone https://github.com/DWilliamZero/better-react-scaffold.git`
+   SSH:    `git clone git@github.com:DWilliamZero/better-react-scaffold.git`
+2) Create and setup a .env file in the project root (See ".env.example"). Be sure to set API_URL to your api url.
 
-2) Run `npm install`
+3) Run `npm install`
    Run `npm start`
 
-3) Pat yourself on the back for saving a ton of time. ;-)
+4) Pat yourself on the back for saving a ton of time. ;-)
 
-4) Send a pull request if you have any suggested changes.
+5) Send a pull request if you have any suggested changes.
 
