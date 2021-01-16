@@ -29,7 +29,8 @@ class Container extends Component {
           <Routes
             user={user}
             setUser={this.setUser}
-            clearUser={this.clearUser}/>
+            clearUser={this.clearUser}
+          />
           <Footer />
         </main>
       </>

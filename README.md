@@ -1,5 +1,5 @@
 # A Better React Scaffold - by D. William Zero
-With this React scaffold, you can immediataly start building your next auth app.  No need to spend time thinking about file structure, or configuring auth.  It's all ready to go out of the box.
+With this React scaffold, you can immediately start building your next auth app.  No need to spend time thinking about file structure, or configuring auth.  It's all ready to go out of the box.
 
 ### Authentication
 Authentication is setup for JWT, make sure your backend auth is set to JWT
