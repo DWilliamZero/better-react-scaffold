@@ -15,7 +15,7 @@ React does not have a specified file structure convention, so I've set it up in 
 
 ## Getting Started
 1) Clone Repo
-   HTTPS: `git clone https://github.com/DWilliamZero/better-react-scaffold.git`
+   HTTPS: `git clone https://github.com/DWilliamZero/better-react-scaffold.git`<br/>
    SSH: `git clone git@github.com:DWilliamZero/better-react-scaffold.git`
 2) Create and setup a .env file in the project root (See ".env.example"). Be sure to set API_URL to your api url.
 
