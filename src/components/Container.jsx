@@ -12,15 +12,15 @@ class Container extends Component {
     }
   }
 
-  setUser(user) {
+  setUser = (user) => {
     this.setState({ user })
   }
 
-  clearUser() {
+  clearUser = () => {
     this.setState({ user: null })
   }
 
-  render() {
+  render = () => {
     const { user } = this.state
     return (
       <>

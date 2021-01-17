@@ -17,7 +17,9 @@ React does not have a specified file structure convention, so I've set it up in 
 1) Clone Repo <br/>
    HTTPS: `git clone https://github.com/DWilliamZero/better-react-scaffold.git`<br/>
    SSH: `git clone git@github.com:DWilliamZero/better-react-scaffold.git`
-2) Create and setup a .env file in the project root (See ".env.example"). Be sure to set API_URL to your api url.
+2) Create and setup a .env file in the project root (See ".env.example"). Be sure to set REACT_APP_API_URL to your api's url. (NOTE: All .ENV variables except for BASE_URL, and NODE_ENV, must be prefaced with `REACT_APP_`.  ENVs can be called anywhere in your project see example below.)<br/><br/>
+Variable: `REACT_APP_STRIPE_PUBLIC_KEY`<br/>
+How to use it: `const STRIPE_PUBLIC_KEY = process.env.REACT_APP_STRIPE_PUBLIC_KEY;` (Instantiation not required)
 
 3) Run `npm install`
    Run `npm start`

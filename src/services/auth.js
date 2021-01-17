@@ -1,6 +1,6 @@
 import api from './apiConfig'
 
-//edit your auth routes in this file
+//edit your auth routes in this file be sure to match your endpoints
 export const signUp = async credentials => {
   try {
     const resp = await api.post('/sign-up', credentials)
@@ -15,6 +15,16 @@ export const signInUser = async credentials => {
   try {
     const resp = await api.post('/sign-in', credentials)
     localStorage.setItem('token', resp.data.token)
+    const user = await getUser()
+    return user
+  } catch (error) {
+    throw error
+  }
+}
+
+export const getUser = async () => {
+  try {
+    const resp = await api.get('/users')
     return resp.data
   } catch (error) {
     throw error
